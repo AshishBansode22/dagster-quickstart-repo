@@ -1,0 +1,95 @@
+,AirportCode,CountryName,Region
+0,CPH,Denmark,Europe
+1,RNN,Denmark,Europe
+2,HBE,Egypt,Africa
+3,JFK,United States,North America
+4,LHR,United Kingdom,Europe
+5,NRT,Japan,Asia
+6,SYD,Australia,Oceania
+7,GRU,Brazil,South America
+8,DXB,United Arab Emirates,Middle East
+9,FRA,Germany,Europe
+10,YYZ,Canada,North America
+11,PEK,China,Asia
+12,JNB,South Africa,Africa
+13,AMS,Netherlands,Europe
+14,SIN,Singapore,Asia
+15,MEX,Mexico,North America
+16,MAD,Spain,Europe
+17,BOM,India,Asia
+18,IST,Turkey,Europe
+19,HND,Japan,Asia
+20,LAX,United States,North America
+21,CDG,France,Europe
+22,DME,Russia,Europe
+23,CPT,South Africa,Africa
+24,AKL,New Zealand,Oceania
+25,GIG,Brazil,South America
+26,DOH,Qatar,Middle East
+27,ZRH,Switzerland,Europe
+28,YVR,Canada,North America
+29,ICN,South Korea,Asia
+30,CAI,Egypt,Africa
+31,VIE,Austria,Europe
+32,BKK,Thailand,Asia
+33,EZE,Argentina,South America
+34,MEL,Australia,Oceania
+35,ATH,Greece,Europe
+36,LIM,Peru,South America
+37,SVO,Russia,Europe
+38,OSL,Norway,Europe
+39,BNE,Australia,Oceania
+40,LIS,Portugal,Europe
+41,NBO,Kenya,Africa
+42,ARN,Sweden,Europe
+43,HEL,Finland,Europe
+44,SCL,Chile,South America
+45,KUL,Malaysia,Asia
+46,DUB,Ireland,Europe
+47,PRG,Czech Republic,Europe
+48,BUD,Hungary,Europe
+49,LGA,United States,North America
+50,SEA,United States,North America
+51,PHX,United States,North America
+52,LAS,United States,North America
+53,HKG,Hong Kong,Asia
+54,KIX,Japan,Asia
+55,MUC,Germany,Europe
+56,SYX,China,Asia
+57,FCO,Italy,Europe
+58,BCN,Spain,Europe
+59,GVA,Switzerland,Europe
+60,TXL,Germany,Europe
+61,SFO,United States,North America
+62,ORD,United States,North America
+63,MIA,United States,North America
+64,BWI,United States,North America
+65,YUL,Canada,North America
+66,GRU,Brazil,South America
+67,TLV,Israel,Middle East
+68,HND,Japan,Asia
+69,MEL,Australia,Oceania
+70,LHR,United Kingdom,Europe
+71,SIN,Singapore,Asia
+72,BOM,India,Asia
+73,CAI,Egypt,Africa
+74,HKG,Hong Kong,Asia
+75,PEK,China,Asia
+76,JNB,South Africa,Africa
+77,AKL,New Zealand,Oceania
+78,EZE,Argentina,South America
+79,SCL,Chile,South America
+80,GIG,Brazil,South America
+81,NRT,Japan,Asia
+82,KUL,Malaysia,Asia
+83,DXB,United Arab Emirates,Middle East
+84,DOH,Qatar,Middle East
+85,IST,Turkey,Europe
+86,ATH,Greece,Europe
+87,VIE,Austria,Europe
+88,LIS,Portugal,Europe
+89,DME,Russia,Europe
+90,SVO,Russia,Europe
+91,ARN,Sweden,Europe
+92,HEL,Finland,Europe
+93,PRG,Czech Republic,Europe

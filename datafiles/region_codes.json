@@ -1,0 +1,9 @@
+[
+    {"Region": "Europe", "Code": 1},
+    {"Region": "Africa", "Code": 2},
+    {"Region": "North America", "Code": 3},
+    {"Region": "Asia", "Code": 4},
+    {"Region": "Oceania", "Code": 5},
+    {"Region": "South America", "Code": 6},
+    {"Region": "Middle East", "Code": 7}
+]
