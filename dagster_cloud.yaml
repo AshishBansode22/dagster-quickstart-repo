@@ -1,0 +1,4 @@
+locations:
+- code_source:
+    module_name: new_etl_project
+  location_name: new_etl_project
