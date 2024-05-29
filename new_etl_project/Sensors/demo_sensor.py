@@ -1,6 +1,7 @@
 from dagster import (
     AssetKey,
     EventLogEntry,
+    RunRequest,
     RunConfig,
     SensorEvaluationContext,
     asset_sensor,
