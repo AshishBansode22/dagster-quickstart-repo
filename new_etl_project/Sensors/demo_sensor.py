@@ -14,9 +14,4 @@ def demo_sensor(context: SensorEvaluationContext, asset_event: EventLogEntry):
     assert asset_event.dagster_event and asset_event.dagster_event.asset_key
     yield RunRequest(
         run_key=context.cursor,
-        run_config=RunConfig(
-            ops={
-                "my_op": {}  # Add any required config for your ops here
-            }
-        ),
     )
