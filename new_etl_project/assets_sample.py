@@ -1,4 +1,4 @@
-from dagster import asset
+from dagster import asset, AutoMaterializePolicy
 from new_etl_project.resources.read_write import read_json, write_csv
 import pandas as pd
 from datetime import datetime
@@ -10,7 +10,7 @@ def get_locations(context) -> pd.DataFrame:
 	df = read_json(location)
 	return df
 
-@asset(group_name='etl_jobs',compute_kind='dataframe')
+@asset(group_name='etl_jobs',compute_kind='dataframe', auto_materialize_policy=AutoMaterializePolicy.eager(), deps=[get_locations])
 def get_regionCodes(context) -> pd.DataFrame:
 	location = "datafiles/region_codes.json"
 	df = read_json(location)
