@@ -26,10 +26,13 @@ def add_region_code_and_timestamp(context, get_locations: pd.DataFrame, get_regi
     
     return merged_df
 
-@asset(group_name='etl_jobs')
+@asset(code_version="1", group_name='etl_jobs')
 def write_to_csv(context, add_region_code_and_timestamp: pd.DataFrame):
     output_path = "datafiles/final_locations.csv"
     write_csv(add_region_code_and_timestamp, output_path)
 
-
+@asset(code_version="2", group_name='etl_jobs')
+def write_to_csv(context, add_region_code_and_timestamp: pd.DataFrame):
+    output_path = "datafiles/test/final_locations.csv"
+    write_csv(add_region_code_and_timestamp, output_path)
 	
